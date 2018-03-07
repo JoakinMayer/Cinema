@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #05386B;
+}
+
+/*PRIVADA*/
+
+
+/*MENU DE NAVEGACION*/
+.navbar{
+    margin: 0;
+    background-color: #141A30;
+    border-radius: 0;
+    min-width: 409px;
+}
+.navbar .navbar-brand{
+    color: #FFF;
+}
+.navbar-brand strong{
+    color: #5AB9EA;
+}
+.navbar-brand span{
+    font-size: 16px;
+}
+.icon-bar{
+    background-color: #FFF;
+}
+.navbar-nav a{
+    font-weight: 600;
+    color: #FFF;
+    border-bottom: 5px solid #141A30;
+}
+.navbar-nav li a:hover{
+    background-color: #141A30;
+    border-bottom: 5px solid #5AB9EA;
+}
+.navbar-nav li .active{
+    background-color: #141A30;
+    border-bottom: 5px solid #5AB9EA;
+}
+.navbar-nav li .sinHover:hover{
+    background-color: #141A30;
+    border-bottom: 5px solid #141A30;
+}
+
+/*ESTILO DE BOTON*/
+.btn-info{
+    border-radius: 10px;
+    padding: 2px 30px;
+    color: white;
+    font-weight: 700;
+    background-color: #009FCB;
+    border-style: none;
+    margin: 25px 0 0 0;
+}
+.btn-info:hover{
+    background-color: #FFF;
+    color: #009FCB;
+}
+
+/*ESTILO DE TABLAS*/
+table{
+    margin: 25px 0 0 0;
+}
+table thead{
+    color: white;
+    background-color: #075972;
+}
+.thcenter{
+    text-align: center;
+}
+table tbody{
+    color: white;
+    background-color: #064375;
+}
+.table tbody tr td  {
+    vertical-align: middle;
+}
+.table tbody tr td a  {
+    color: white;
+}
+.btn-primary{
+    background-color: #009FCB;
+    border-color: #009FCB;
+    border-radius: 50px;
+}
+.btn-default{
+    background-color: #075972;
+    border-color: #075972;
+    border-radius: 50px;
+    color: white;
+}
+
+
+.tituloInsMod{
+    margin: 0;
+    background-color: #009FCB;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.insertarInformacion{
+    background-color: #064375;
+}
+
+.bloqueInImHo div h2, .bloqueInImHo div h3, .bloqueInImHo div h4{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+.insertarInformacion .bloqueInImHo div:nth-of-type(1){
+    background-color: #064375;
+}
+.insertarInformacion .bloqueInImHo div:nth-of-type(2){
+    background-color: #075972;
+}
+.insertarInformacion .bloqueInImHo div:nth-of-type(3){
+    background-color: #1E7A7C;
+}
+
+form{
+    color: white;
+    margin: 50px 0;
+}
+.form-control{
+    border-radius: 25px;
+    overflow: hidden;   
+}
+
+select option {
+    border-radius: 50px;
+}
+
+
+/*INSERTAR IMAGENES*/
+.insertarImagenes{
+    background-color: #075972;
+}
+.insertarImagenes .bloqueInImHo div:nth-of-type(1){
+    background-color: #064375;
+}
+.insertarImagenes .bloqueInImHo div:nth-of-type(2){
+    background-color: #075972;
+}
+.insertarImagenes .bloqueInImHo div:nth-of-type(3){
+    background-color: #1E7A7C;
+}
+.previewPoster{
+    height: 450px;
+    width: 90%;
+    border: 5px solid #FFF;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+.previewPoster p{
+    text-align: right;
+    padding: 0 10px;
+}
+.previewPortada{
+    height: 450px;
+    width: 100%;
+    border: 5px solid #FFF;
+    border-radius: 25px;
+    background-position: center center;
+    background-size: contain;
+}
+.previewPortada p{
+    text-align: right;
+    padding: 0 10px;
+}
+#imgPoster{
+    height: 90%;
+    width: 90%;
+    margin: 12px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+
+}
+#imgPortada{
+    height: 90%;
+    width: 90%;
+    margin: 12px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.form-group{
+    margin: 20px 0;
+}
+
+/*INSERTAR Horarios*/
+.insertarHorarios{
+    background-color: #1E7A7C;
+}
+.insertarHorarios .bloqueInImHo div:nth-of-type(1){
+    background-color: #064375;
+}
+.insertarHorarios .bloqueInImHo div:nth-of-type(2){
+    background-color: #075972;
+}
+.insertarHorarios .bloqueInImHo div:nth-of-type(3){
+    background-color: #1E7A7C;
+}
+.insertarHorarios i.material-icons{
+    color: #009FCB;
+}
+
+/*INICIO DE SESION*/
+#inicioSesion{
+    background-image: url("../img/walppaperfilms.jpg");
+    background-size: cover;
+    color: white;
+}
+#contenedorFrom{
+    margin-top: 15%;
+    background-color: #064375;
+    padding: 2%;
+}
+#inicioSesion h1 strong{
+    color: #5AB9EA;
+}
+
+/*PUBLICA*/
+
+/*INDEX*/
+#index{
+    color: white;
+    background-color: #141A30;
+}
+.publico .navbar-form{
+    margin-top: 15px;
+    position: relative;
+}
+.publico .navbar-form input{
+    border-radius: 25px;
+    border: none;
+    padding: 1.1px 30px;
+
+}
+.publico .navbar-form input[type="text"]{
+    color: black;
+}
+
+.publico .btn-info{
+    margin: 0;
+    margin-left: -40px;
+    padding: 1.5px 25px;
+}
+.firstDiv{
+    margin-top: 55px;
+}
+#index #slider > .carousel-inner > .item > img { 
+    width:100%; 
+} 
+
+@media (max-width: 768px) { 
+    #index #slider > .carousel-inner > .item > img { 
+        height:372px;
+    } 
+    #index  .carousel-control { 
+        height:372px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) { 
+    #index #slider > .carousel-inner > .item > img { 
+        height:458px;
+    } 
+    #index  .carousel-control { 
+        height:458px;
+    }
+}
+@media (min-width: 993px) { 
+    #index #slider > .carousel-inner > .item > img { 
+        height:600px;
+    } 
+    #index .carousel-control { 
+        height:600px;
+    } 
+}
+
+#index #slider > .carousel-inner > .item > .carousel-caption { 
+    background-color: rgba(20,26,48,0.6);
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} 
+#index .reseña{
+    font-size: 22px;
+}
+#index .reseña .titulo{
+    padding: 0 50px;
+    font-weight: bold;
+}
+#index .reseña span{
+    padding: 0 25px;
+}
+#index .reseña .genero img{
+    margin: 0 10px;
+}
+#ultimosEstrenos{
+    margin: 15px 0 ;
+    background-color: #141A30;
+}
+.borderBottom{
+    font-weight: 600;
+    padding: 0 20px;
+    border-bottom:2px solid #009FCB;
+}
+#ultimasPeliculas{
+    margin: 50px 0;
+}
+#ultimasPeliculas div a p{
+    color: white;
+    padding: 10px 0;
+    list-style: none;
+}
+
+/*TECNOLOGIAS*/
+.tecnologias{
+    background-color: #05386B;
+}
+.tecnologias:hover{
+    background-color: #5AB9EA;
+}
+.tecnologias p span{
+    font-size: 200px;
+    color: #05386B;
+    text-shadow: -2px 0 #5AB9EA, 0 2px #5AB9EA, 2px 0 #5AB9EA, 0 -2px #5AB9EA;
+    line-height: 50px;
+    font-weight: 700;
+}
+.tecnologias p{
+    color: #05386B;
+    font-size: 20px;
+    line-height: 150px;
+    text-decoration: none;
+    border: none;
+}
+.tecnologias a:hover{
+    text-decoration: none;
+}
+
+/*APLICACION*/
+.aplicacion{
+    background: #141A30; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(circle,#5AB9EA -40%,  #141A30 40%); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle,#5AB9EA -40%,  #141A30 40%); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle,#5AB9EA -40%,  #141A30 40%); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(circle,#5AB9EA -40%,  #141A30 40%); /* Standard syntax */
+}
+.aplicacion h3{
+    padding: 10%;
+}
+.aplicacion h3 span{
+    color: #5AB9EA;
+    font-weight: 600;
+    font-size: 51px;
+    margin-top: -7px;
+}
+.aplicacion .getIt{
+    margin-top: 15px;
+}
+
+/*FOOTER*/
+.footer{
+    background-color: #05386B;
+    padding: 25px;
+}
+.footer h4{
+    margin: 20px 0;
+}
+.footer .redesSociales li{
+    margin: 15px 15px;
+}
+.footer #newsletter {
+    margin-top: 15px;
+    position: relative;
+}
+.footer #newsletter input {
+    color: black;
+    border-radius: 25px;
+    border: none;
+    padding: 1.3px 30px;
+}
+
+/*CATALOGOS*/
+
+
+#catalogo{
+    color: white;
+    background-color: #141A30;
+}
+
+#filtros > div:nth-of-type(1){
+    background-color: #05386B;
+}
+#filtros > div:nth-of-type(2){
+    background-color: #064375;
+}
+#filtros > div:nth-of-type(3){
+    background-color: #075972;
+}
+#filtros >  div:nth-of-type(4){
+    background-color: #05386B;
+}
+#filtros > div{
+    padding: 50px;
+    height: 150px;
+}
+#filtros form{
+    margin: 0;
+}
+#filtros input, #filtros select{
+    color: black;
+    border-radius: 25px;
+    border-color: transparent;
+}
+#filtros  form > button.btn.btn-info{
+    padding: 2px 35px;
+}
+#peliculas{
+    padding-bottom: 50px;
+}
+#peliculas > div{
+    margin: 50px 0;
+}
+#peliculas div > div{
+    padding: 0px;
+
+}
+#peliculas div img{
+    padding: 0px;
+
+}
+#peliculas .datos{
+    height: 100%;
+}
+#peliculas .datos > div{
+    padding: 15%;
+}
+#peliculas .datos > div:nth-of-type(1){
+    height: 15%;
+    background-color: #4285F4;
+}
+#peliculas .datos > div:nth-of-type(2){
+    height: 15%;
+    background-color: #5AB9EA;
+}
+#peliculas .datos > div:nth-of-type(3){
+    height: 15%;
+    background-color: #009FCB;
+}
+#peliculas .datos > div:nth-of-type(4){
+    height: 15%;
+    background-color: #009FCB;
+}
+#peliculas .datos > div:nth-of-type(5){
+    height: 10%;
+    background-color: #1A89C1;
+}
+#peliculas .datos > div:nth-of-type(6){
+    height: 30%;
+    background-color: #006DC6;
+}
+#peliculas .datos > div:nth-of-type(6) p{
+    color: #006DC6;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-weight: 700;
+}
+#peliculas > div > div:nth-of-type(2){
+    background-color: #05386B;
+    padding: 25px;
+}
+
+/*BUSCADOR*/
+#buscar{
+    background-color: #141A30;
+    color: white;
+}
+
+/*AMPLIACION*/
+#ampliacion{
+    background-color: #141A30;
+    color: white;
+}
+#ampliacion .tituloInsMod{
+    font-size: 16px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+#ampliacionPelicula{
+    margin: 50px 0;
+    padding: 50px 50px;
+    background-color: #05386B;
+}
+#ampliacionDatos {
+    font-size: 17px;
+}
+#ampliacionDatos h1{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+#ampliacionDatos a{
+    color: white;
+    text-decoration: underline;
+}
+#ampliacionTrialer{
+    margin: 50px 0;
+}
+#contenedorHorarios{
+    background-color: #064375;
+}
+
+select#complejo{
+    border-radius: 25px;
+    color: black;
+    padding: 2px;
+}
+#contenedorHorarios{
+    padding: 10px;
+}
+#ampliacionHorarios input{
+    width: 80%;
+    border-radius: 25px;
+    border-color: transparent;
+    color: black;
+}
+#ampliacionHorarios input{
+    width: 80%;
+    border-radius: 25px;
+    border-color: transparent;
+    color: black;
+}
+#ampliacionHorarios label.active{
+    background-color: #075972;
+}
+.contenedorComplejo{
+    background-color: #075972;
+    padding: 10px;
+}
+.contenedorComplejo p{
+    font-weight: 600;
+
+}
+.contenedorHoras{
+    background-color: #064375;
+    padding: 10px;
+}
+.contenedorHoras p:nth-of-type(2){
+    border-left: 2px solid white;
+}
+.contenedorHoras p:nth-of-type(2) span{
+    color: #064375;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-weight: 700;
+    padding: 0 10px 0 5px;
+}
+
+.preciosComplejo{
+    display: none;
+}
+
+/*COMPLEJOS*/
+#complejos{
+    background-color: #141A30;
+    color: white;
+}
+#complejos h1{
+    background-color: #05386B;
+    padding: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+#salas > .row:nth-child(2n+1) {
+    background-color: #075972;
+}
+#salas > .row:nth-child(2n) {
+    background-color: #064375;
+}
+#salas img{
+    padding: 0;
+}
+#salas .datosCines{
+    padding: 25px;
+}
+#salas .datosCines>p{
+    padding: 5px 0;
+    font-size: 18px;
+}
+#salas .datosCines>a{
+    font-size: 18px;
+    color: white;
+}
+#salas>div.row{
+    border-top: 3px solid white;
+}
+.evaluacionSala{
+    padding: 50px;
+}
+.precioEntradas{
+    padding: 50px;
+}
+.masDatos{
+    display:none;
+}
+.verPeliculas{
+    padding: 2px;
+    border: 1px solid white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+/*REFERENCIAS*/
+#referencias{
+    background-color: #141A30;
+    color: white;
+}
+#referencias h1{
+    background-color: #05386B;
+    padding: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+#generos{
+    background-color: #075972;
+}
+#generos p{
+    font-size: 30px;
+}
+.contenidoGeneros{
+    padding: 20px;
+}
+#clasificacion{
+    background-color: #064375;
+}
+.contenidoClasificacion{
+    padding: 20px;
+    font-size: 18px;
+}
+.contenidoClasificacion p:nth-of-type(1){
+    padding: 5px 0;
+    background-color: #006DC6;
+}
+.contenidoClasificacion p:nth-of-type(2){
+    padding: 5px 10px;
+}
+/*CONTACTO*/
+#contacto{
+    background-color: #141A30;
+    color: white;
+}
+#contacto h1{
+    background-color: #05386B;
+    padding: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+#contacto .container-fluid{
+    background-image: url("../img/walppaperfilms.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+#contacto .container-fluid:nth-of-type(1) .btn-info{
+    margin-left: 5px;
+}
+#contacto #contenedorFrom{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
